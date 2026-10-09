@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+button {
+    color: black;
+}
+
+#shown-list {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 3rem;
+    outline: 2px dashed blue;
+    width: 50%;
+}
+
+#group-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.group {
+    outline: 2px dashed blue;
+    padding-right: 1rem;
+}
+
+.group h3 {
+    color:darkblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 1rem;
+}
