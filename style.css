@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+button {
+    color: black;
+    background-color: white;
+    transition-duration: 0.4s;
+    border:1px dashed black;
+    border-radius: 5px;
+    margin: 0.25rem;
+}
+
+#spin-btn {
+    scale: 125%;
+}
+
+button:hover {
+    color: black;
+    background-color: paleturquoise;
+}
+
+button:active {
+    color: white;
+    background-color:navy;
+}
+
+#shown-list {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 3rem;
+    outline: 2px dashed blue;
+    width: 50%;
+}
+
+#group-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.group {
+    outline: 2px dashed blue;
+    padding-right: 1rem;
+}
+
+.group div {
+    display: flex;
+    justify-content: center;
+}
+
+.group h3 {
+    color:darkblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.group button {
+    margin: 0;
+    align-self: center;
+    font-size: 0.5rem;
+}
